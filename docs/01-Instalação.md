@@ -31,12 +31,20 @@ Execute a inicialização:
 openspec init
 ```
 
+1- Pressione enter
+2- Github Copilot
+3- Pressione enter
+
 ---
 
 ### **Verificar configurações**
 
-Execute o comando abaixo para visualizar a configuração atual e checar alterações ativas:
+```bash
+git status
+```
 
 ```bash
-openspec list
+git add .
+git commit -m"chore: openspec init"
 ```
+
